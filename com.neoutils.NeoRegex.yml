@@ -2,8 +2,6 @@ app-id: com.neoutils.NeoRegex
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
 command: NeoRegex
 
 finish-args:
@@ -12,10 +10,6 @@ finish-args:
   - --device=dri
 
 modules:
-  - name: openjdk
-    buildsystem: simple
-    build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
 
   - name: NeoRegex
     buildsystem: simple
