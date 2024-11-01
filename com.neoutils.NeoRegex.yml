@@ -29,5 +29,5 @@ modules:
     sources:
       - type: archive
         url: https://github.com/NeoUtils/NeoRegex/releases/download/v2.2.1/NeoRegex-2.2.1-x86_64.tar.gz
-        sha256: 00f33e1ae1573d1bf6cdc487ea6276765a252927b81ccc591dca22a879d949ea
+        sha256: 0720daf8ae4c9fe18d25591d1b6a4853d2375ca6be3248f34efababb58f06cbc
         dest: files
