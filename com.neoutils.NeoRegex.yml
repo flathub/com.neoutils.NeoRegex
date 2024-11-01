@@ -1,6 +1,6 @@
 app-id: com.neoutils.NeoRegex
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
@@ -28,6 +28,6 @@ modules:
       - install -Dm644 files/com.neoutils.NeoRegex.metainfo.xml /app/share/metainfo/com.neoutils.NeoRegex.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/NeoUtils/NeoRegex/releases/download/v2.0.0/NeoRegex-2.0.0-x86_64.tar.gz
-        sha256: fe8d056f2ba47c1c88f343e4034c5a3ce1d36bcfda82c1fe59d9c89a498b2fe3
+        url: https://github.com/NeoUtils/NeoRegex/releases/download/v2.2.1/NeoRegex-2.2.1-x86_64.tar.gz
+        sha256: 0720daf8ae4c9fe18d25591d1b6a4853d2375ca6be3248f34efababb58f06cbc
         dest: files
