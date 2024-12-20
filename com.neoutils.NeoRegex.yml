@@ -22,6 +22,6 @@ modules:
       - install -Dm644 files/com.neoutils.NeoRegex.metainfo.xml /app/share/metainfo/com.neoutils.NeoRegex.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/NeoUtils/NeoRegex/releases/download/v2.3.0/NeoRegex-2.3.0-x86_64.tar.gz
-        sha256: dc59c75b27cde75b003828fa16b40d107415fbe16c6c69b63348918cf36af66b
+        url: https://github.com/NeoUtils/NeoRegex/releases/download/v2.4.0/NeoRegex-2.4.0-x86_64.tar.gz
+        sha256: c7d32f05857dddb3a415bc0274bb0ef4e6e518016c6128507bbbaa1e69366318
         dest: files
