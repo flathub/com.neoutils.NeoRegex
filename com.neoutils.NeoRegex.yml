@@ -8,6 +8,7 @@ finish-args:
   - --socket=x11
   - --share=ipc
   - --device=dri
+  - --filesystem=home
 
 modules:
 
