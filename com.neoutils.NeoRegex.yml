@@ -9,6 +9,7 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --filesystem=home
+  - --share=network
 
 modules:
 
@@ -23,6 +24,6 @@ modules:
       - install -Dm644 files/com.neoutils.NeoRegex.metainfo.xml /app/share/metainfo/com.neoutils.NeoRegex.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/NeoUtils/NeoRegex/releases/download/v3.1.0/NeoRegex-3.1.0-x86_64.tar.gz
-        sha256: 0c4f6ebead65290ce45711f24353f91c6a7f00db6717c378f62d196b7c3b3fa0
+        url: https://github.com/NeoUtils/NeoRegex/releases/download/v3.2.0/NeoRegex-3.2.0-x86_64.tar.gz
+        sha256: bb14ef170af91ad6814c4b5ff8f6808727a89cdc5cd98a0d960cd5c9635e089a
         dest: files
